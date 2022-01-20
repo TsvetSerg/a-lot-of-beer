@@ -1,0 +1,5 @@
+.profile__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
