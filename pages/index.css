@@ -7,9 +7,9 @@
 @import url(../blocks/profile/__userId/profile__userId.css);
 @import url(../blocks/profile/__username/profile__username.css);
 @import url(../blocks/profile/__wrapper/profile__wrapper.css);
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/selection-container/selection-container.css);
+@import url(../blocks/selection-container/__button/selection-container__button.css);
+@import url(../blocks/main-container/main-container.css);
+@import url(../blocks/user/user.css);
 @import url();
 @import url();

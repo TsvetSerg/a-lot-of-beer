@@ -1,0 +1,9 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  border: white 1px solid;
+  justify-content: center;
+  margin-top: 50px;;
+}

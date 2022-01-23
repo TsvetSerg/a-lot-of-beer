@@ -1,0 +1,48 @@
+.selection-container__button {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #ff0000, #ff3131, #ffeb3b, #ff0000);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+
+}
+
+.selection-container__button:hover {
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.selection-container__button::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #ff0000, #c46800, #ffeb3b, #ff0000);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.selection-container__button:hover::before {
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
+}
