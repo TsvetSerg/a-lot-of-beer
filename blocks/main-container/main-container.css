@@ -3,7 +3,10 @@
   flex-direction: row;
   margin: 0;
   padding: 0;
-  border: white 1px solid;
+  /* border: white 1px solid; */
   justify-content: center;
-  margin-top: 50px;;
+  margin-top: 50px;
+  min-width: 1000px;
+  align-self: center;
+  align-items: center;
 }

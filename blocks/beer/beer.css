@@ -1,0 +1,11 @@
+.beer {
+  margin: 20px;
+  padding: 0;
+  border: #ff0000 solid 3px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 350px;
+  min-height: 220px;
+}
